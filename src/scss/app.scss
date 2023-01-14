@@ -27,3 +27,25 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar-menu{
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-burger{
+  border: 2px solid red;
+  width: 200px;
+  height: 400px;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-burger {
+    display: block;
+  }
+  .navbar-menu {
+    display: none;
+  }
+}
